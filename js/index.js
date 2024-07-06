@@ -33,9 +33,10 @@ $('.scrollbtn').on('click', function () {
 
 // Show or hide the scroll button based on scroll position
 $(window).on('scroll', function () {
-    if (Number($(window).scrollTop()) > 500) {
+    if (Number($(window).scrollTop()) > 750) {
         $('.scrollbtn').css('display', 'flex');
-    } else {
+    }
+    if (Number($(window).scrollTop()) < 750) {
         $('.scrollbtn').css('display', 'none').fadeOut(500);
     }
 });
