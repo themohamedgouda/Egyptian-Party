@@ -1,0 +1,170 @@
+/* Home Section */
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../portfolio/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+.overLayHome{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(214, 46, 51 , 0.6);
+    top: 0;
+    left: 0;
+}
+
+/* Left Menu */
+.leftMenu{
+    background-color: black;
+    z-index: 99999999999;
+}
+.leftMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+    transition: all ease 0.2s;
+    padding: 20px;
+}
+.leftMenu a:hover{
+    color:rgba(214, 46, 51 , 0.6); 
+}
+
+/* Home Contact */
+.homeContact{
+    text-align: center;
+    margin-left: 250px;
+}
+.homeContact h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.homeContact p{
+    font-size: 1.2rem;
+}
+.homeContact .fa-bars{
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    cursor: pointer;
+    z-index: 999;
+    transform: translateY(-45%);
+    margin-left: 250px;
+}
+.homeContact .open{
+    letter-spacing: 3px;
+}
+.btnClose{
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Slider Down */
+.sliderDown{
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.sliderDown div{
+    line-height: 2;
+    padding: 10px;
+    display: none;
+    background-color: #ccc;
+}
+.sliderDown h3{
+    text-align: center;
+}
+
+/* Accordion Toggle */
+.toggle{
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+/* Countdown Section */
+.count{
+    background-image: url(../portfolio/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+.count .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+.count .container{
+    padding: 100px 0;
+}
+.count .container .tim{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 50px ;
+}
+
+/* Contact Us */
+.contactUs .socialMedia a{
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.contactUs .socialMedia a:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+textarea{
+    height: 200px;
+    margin-bottom: 10px;
+}
+.head h2{
+    font-size: 40px;
+}
+.head p{
+    font-size: 20px;
+}
+.conInfo h3{
+    font-size: 25px;
+}
+.conInfo p{
+    font-size: 20px;
+}
+
+/* General Styles */
+.scrollbtn{
+    width: 45px;
+    height: 45px;
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9999999999999999;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+}
+.scrollbtn i{
+    font-size: 30px;
+}
