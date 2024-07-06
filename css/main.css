@@ -164,6 +164,7 @@ textarea{
     bottom: 15px;
     right: 15px;
     border-radius: 50%;
+    display: none;
 }
 .scrollbtn i{
     font-size: 30px;
